@@ -23,7 +23,7 @@ function initialData(data) {
 	.attr("cx", 280)
 	.attr("cy", 400)
 	.attr("r", miletopixel)
-	.attr("fill", "#FF0000")
+	.attr("fill", "rgb(238, 255, 0)")
 	.attr("fill-opacity", 0.15)
 	.attr("id", "A")
 	.call(drag);
@@ -33,7 +33,7 @@ function initialData(data) {
 	.attr("cx", 350)
 	.attr("cy", 400)
 	.attr("r", miletopixel)
-	.attr("fill", "#0000FF")
+	.attr("fill", "#594396")
 	.attr("fill-opacity", 0.15)
 	.attr("id", "B")
 	.call(drag);

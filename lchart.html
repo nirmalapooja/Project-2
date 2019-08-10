@@ -18,7 +18,7 @@ var y = unpack(rows, 'inspection_score')
 //   var x2 = unpack(rows, 'Date')
 //   var y2 = unpack(rows, 'AAPL.Low')
 
-var n = 100;
+var n = 500;
 for (var i = 0; i < n; i++) {
   frames[i] = {data: [{x: [], y: []}]},
   frames[i].data[0].x = x.slice(0, i+1);
@@ -51,7 +51,7 @@ var data = [trace1];
 var layout = {
   title: 'Inspection score vs Date Filled-Area Animation',
   xaxis: {
-    range: [frames[99].data[0].x[0], frames[99].data[0].x[99]],
+    range: [frames[499].data[0].x[0], frames[499].data[0].x[499]],
     showgrid: false
   },
   yaxis: {

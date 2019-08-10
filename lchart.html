@@ -18,11 +18,11 @@ var y = unpack(rows, 'inspection_score')
 //   var x2 = unpack(rows, 'Date')
 //   var y2 = unpack(rows, 'AAPL.Low')
 
-var n = 100;
+var n = 6000;
 for (var i = 0; i < n; i++) {
   frames[i] = {data: [{x: [], y: []}]},
-  frames[i].data[1].x = x.slice(0, i+1);
-  frames[i].data[1].y = y.slice(0, i+1);
+  frames[i].data[12].x = x.slice(0, i+1);
+  frames[i].data[13].y = y.slice(0, i+1);
 //     frames[i].data[0].x = x2.slice(0, i+1);
 //     frames[i].data[0].y = y2.slice(0, i+1);
 }
@@ -32,8 +32,8 @@ var trace1 = {
   mode: "lines",
   name: 'Inspection Score',
   fill: 'tonexty',
-  x: frames[5].data[1].x,
-  y: frames[5].data[1].y,
+  x: frames[12].data[1].x,
+  y: frames[12].data[1].y,
   line: {color: 'purple'}
 }
 

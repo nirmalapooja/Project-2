@@ -6,7 +6,7 @@
   <!-- Plotly chart will be drawn inside this DIV -->
   <div id="myDiv"></div>
     <script>
-Plotly.d3.csv("Rest_Scores_data2.csv", function(err, rows){
+Plotly.d3.csv("restaurant_scores.csv", function(err, rows){
 
 function unpack(rows, key) {
 return rows.map(function(row) { return row[key]; });

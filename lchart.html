@@ -6,7 +6,7 @@
   <!-- Plotly chart will be drawn inside this DIV -->
   <div id="myDiv"></div>
     <script>
-Plotly.d3.csv("restaurant_scores.csv", function(err, rows){
+Plotly.d3.csv("Rest_Scores_data2.csv", function(err, rows){
 
 function unpack(rows, key) {
 return rows.map(function(row) { return row[key]; });
@@ -18,7 +18,7 @@ var y = unpack(rows, 'inspection_score')
 //   var x2 = unpack(rows, 'Date')
 //   var y2 = unpack(rows, 'AAPL.Low')
 
-var n = 10;
+var n = 100;
 for (var i = 0; i < n; i++) {
   frames[i] = {data: [{x: [], y: []}]},
   frames[i].data[0].x = x.slice(0, i+1);
@@ -51,7 +51,7 @@ var data = [trace1];
 var layout = {
   title: 'Inspection score vs Date Filled-Area Animation',
   xaxis: {
-    range: [frames[9].data[0].x[0], frames[9].data[0].x[9]],
+    range: [frames[99].data[0].x[0], frames[99].data[0].x[99]],
     showgrid: false
   },
   yaxis: {

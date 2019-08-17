@@ -1,0 +1,126 @@
+.navbar-brand {
+    background-color: rgb(170, 10, 10);
+    font-family: "Courier";
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    margin-left: 20px;
+    font-size: 20px; 
+}
+.navbar {
+    background-color: rgb(170, 10, 10);
+    border: 3px solid rgb(170, 10, 10);
+}
+.dropdown {
+    background-color:rgb(170, 10, 10);
+}
+.dropdown li a {
+    font-family: "Courier";
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.dropdown a {
+    font-family: "Courier";
+    font-size: 20px;
+}
+
+.nav-item {
+    font-family: "Courier";
+    font-size: 20px;
+    color: rgb(170, 10, 10);
+}
+.navbar-collapse {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Courier";
+}
+body {
+    background-color: rgb(235, 235, 235);
+    background-image: url("Images/Food\ Background.jpg");
+}
+p {
+    font-size: 17px;
+    padding: 10px 10px 10px 10px;
+    font-family: "Courier";
+    color:rgb(170, 10, 10);
+}
+h1 {
+    margin-left: 10px;
+    font-size: 40px;
+    font-family: "Courier";
+    color: rgb(170, 10, 10);
+    font-weight: bold;
+}
+h3 {
+    font-family: "Courier";
+    color: rgb(170, 10, 10);
+    font-weight: bold;
+}
+h4 {
+    text-align: center;
+    font-family: "Courier";
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+
+}
+img {
+    padding: 5px 5px 5px 5px;
+}
+footer { 
+    font-family: "Courier";
+    font-size: 14px; 
+    background-color: rgb(170, 10, 10); 
+    border: 3px solid rgb(170, 10, 10);
+    color: rgb(255, 255, 255); 
+    min-height: 30px; 
+    text-align: center; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 5px; 
+}
+.text {
+    margin: 17px;
+    font-family: "Courier";
+    color: rgb(170, 10, 10);
+}
+.nav {
+    margin-right: 25px
+}
+
+.container-fluid {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+#box {
+    border: 5px solid rgb(170, 10, 10);
+    border-radius: 10px;
+    margin: 20px;
+    background-color: white;
+}  
+#selected {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 2px;
+}
+#headtext{
+    font-family: "Courier";
+    color: rgb(170, 10, 10);
+    font-size: 20px;
+}
+#datatable {
+    border: 20px solid white;
+    border-radius: 10px;
+    background-color: white;
+    margin:20px;
+}
+#homebutton {
+    color:rgb(255, 255, 255);
+}
+
+.data-row a {
+    font-family: "Courier";
+    color: rgb(170, 10, 10);
+    font-size: 30px;
+    font-weight: bold;
+}
